@@ -3,3 +3,5 @@ git add .
 git commit -m "asdasd"
 
 git push
+
+git log (para ver los commits realizados)
