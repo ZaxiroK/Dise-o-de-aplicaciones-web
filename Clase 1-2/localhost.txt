@@ -1,0 +1,17 @@
+1- ir al disco C:
+
+2- ir a la carpeta xampp
+
+3- ir carpeta htdocs
+
+4- crear carpeta prueba o el nombre que queramos, 
+
+5- metemos el archivo de html5 en esta carpeta
+
+6- le cambiamos el nombre del archivo a index.html
+
+7- ejecutamos el xampp y iniciamos apache
+
+8- nos metemos en internet y ponemos en la busqueda del sitio localhost/prueba
+
+Nota: si utilizamos otro nombre que no fue pureba se pone este en vez de prueba 
