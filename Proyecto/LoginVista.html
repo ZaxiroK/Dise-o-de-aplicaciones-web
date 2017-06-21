@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Login</title>
+	<link rel = "stylesheet" href="LoginVistaEstilos.css">
+</head>
+
+<body oncontextmenu="return false">
+
+
+
+  <div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+		<div id = "Grand">Grand</div>
+			<div><span>Challenge</span></div>
+		</div>
+		<br>
+		<form name="login">
+		<div class="login">
+				<input type="text" placeholder="Cuenta" name="userid"><br>
+				<input type="password" placeholder="Clave" name="pswrd"><br>
+				<input type="button" onclick="check(this.form)" value="Login"/>
+				<input type="button2" onclick="check(this.form2)" value="Mas opciones"/>
+		</div>
+
+
+
+</form>
+<script language="javascript">
+function check(form)
+{
+ 
+ if(form.userid.value == "123" && form.pswrd.value == "123")
+  {
+    window.open('https://accounts.google.com/ServiceLogin/identifier?hl=es-419&service=mail&flowName=GlifWebSignIn&flowEntry=AddSession')
+  }
+ else
+ {
+   alert("La abilitacion de la pagina aun esta pendiente :)")
+  }
+}
+
+function check(form2)
+{
+	window.open("NuevaCuenta.html")
+}
+
+
+</script>
+
+
+</body>
+</html>
