@@ -1,0 +1,28 @@
+.navbar {margin-bottom: 0}
+
+.jumbotron {
+    background: orange;
+    color:  black;
+    padding: 0px 0;
+}
+
+.jumbotron .titulo-blog {
+    font-size:  80px;
+}
+#titulo1{color:white;
+      
+}
+#titulo2{color:black;
+
+}
+.footer{ 
+    background-image: url(bola.jpg);
+	background-attachment: fixed;
+	color:white ;}
+
+section .img{
+    background-image: url(../img/bola.jpg);
+	background-attachment: fixed;
+	color:black ;
+	
+}
