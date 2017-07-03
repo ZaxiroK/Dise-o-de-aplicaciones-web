@@ -15,14 +15,3 @@
 #titulo2{color:black;
 
 }
-.footer{ 
-    background-image: url(bola.jpg);
-	background-attachment: fixed;
-	color:white ;}
-
-section .img{
-    background-image: url(../img/bola.jpg);
-	background-attachment: fixed;
-	color:black ;
-	
-}

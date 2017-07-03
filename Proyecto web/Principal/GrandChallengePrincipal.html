@@ -5,8 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
     <title>WilmerVargas</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel = "stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href ="../css/bootstrap.min.css">
+    <link rel = "stylesheet" href="../Principal/estilos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.ja"></script>
+    <script src="https://maxcdn.bootstrapodn.com/bootstrap/3.3.4/bootstrap.min.ja"></script>
+    
+    
 </head>
 
 <body>
@@ -22,20 +26,23 @@
                     </button>
                    <a href="#" class="navbar-brand">GrandChallenge</a>
                 </div>
+                
                 <!-- Inicia Menu -->
                 <div class ="collapse navbar-collapse" id ="navegacion-Wil">
             
-                    <a href= "#" class="btn btn-lg btn-primary navbar-right">Registrarse</a>
+                    <a href= "../Login/GrandChallengeLogin.html" class="btn btn-lg btn-primary navbar-right">Registrarse</a>
                     <a href= "#" class="btn btn-lg btn-success navbar-right">Iniciar Sesion</a>
                     
                     <ul class="nav navbar-nav">
                 <li><a href ="#">Mi Perfil</a></li>
                 <li class = "dropdown">
-                    <a href = "#" class= "dropdown-toggle" data-toggle= "dropdown" role ="button">
-                        Crear Equipo <span class= "caret"></span>
+                    <a href = "#" class= "dropdown-toggle" data-toggle= "dropdown" >Equipo 
+                        <span class= "caret"></span>
                     </a>
-                    
+                 
                     <ul class ="dropdown-menu" role="menu">
+                        <li><a href= "#">Mi Equipo </a></li>
+                        <li class="divider"></li>
                         <li><a href= "#">Crear Equipo</a></li>
                         <li class="divider"></li>
                         <li><a href= "#">Unirse a Equipo</a></li>
@@ -63,7 +70,7 @@
                 
                 
                 <a href "" class= "btn btn-lg btn-danger">Buscar Challenge</a>
-                <a href "" class= "btn btn-lg btn-default">Ofrecer Servicio</a>
+                <a href "" class= "btn btn-lg btn-default">Registrar Cancha</a>
                 
             </div>    
         </div>
@@ -71,7 +78,7 @@
     
     <section class= "">
         
-        <IMG SRC="img/bola.jpg" WIDTH="1520px" HEIGHT="500px"></IMG>
+        <IMG SRC="../img/bola.jpg" WIDTH="1520px" HEIGHT="500px"></IMG>
         
     </section>
     
@@ -80,6 +87,7 @@
     
     </footer>
     
-    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
