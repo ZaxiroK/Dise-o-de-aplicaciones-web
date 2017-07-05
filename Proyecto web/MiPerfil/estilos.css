@@ -7,7 +7,7 @@ body {
     color: #fff;
     line-height: 30px;
     text-align: center;
-    background-image: url(../img/BaloncestoColorido.jpg)
+    background-image: url(../img/FondoBolaAzul.jpg)
 
 }
 strong { 
@@ -165,4 +165,14 @@ button.mybtn:focus {
     h1, h2 { font-size: 32px; }
 
 }
+
+.fa-arrow-left{
+    padding: 18px 2px 0px 5px;
+    float: inherit
+}
+.
+
+
+
+
 
