@@ -69,8 +69,17 @@ p{
     margin: 5px 0 1px 25px ;
     right: 100px
 }
-#1{
-   right: inherit 
+#bienvenido{
+    position: relative;
+    top: 7px;
+    left: 150px;
+    font-size: 20px
+}
+#usuario{
+    position: relative;
+    top: 7px;
+    left: 150px;
+    font-size: 20px
 }
 
 

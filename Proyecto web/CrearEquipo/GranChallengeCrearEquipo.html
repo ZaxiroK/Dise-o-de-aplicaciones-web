@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Formulario Login</title>
+    <title>Crear Equipo</title>
  
     <!-- CSS de Bootstrap -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Iconos--> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500" >
-    <link rel="stylesheet" href="../Registrarse/estilos.css">
+    <link rel="stylesheet" href="../CrearEquipo/estilos.css">
     
   </head>
 
@@ -31,7 +31,7 @@
                 <!-- Inicia Menu -->
                 <div class ="collapse navbar-collapse" id ="navegacion-Wil">
             
-                    <a href= "../PrincipalLogin/GrandChallengePrincipalLogin.html" class="btn btn-lg btn-primary navbar-right">Iniciar sesion</a>
+                    <a href= "../PrincipalLogin/GrandChallengePrincipalLogin.html" class="btn btn-lg btn-primary navbar-right">Cerrar Sesión</a>
                     
                   </div>  
              </div>
@@ -42,50 +42,66 @@
         <div class="container" > 
             <div class="row">
                 <div class="col-sm-12" >
-                  <h1><strong>GrandChallenge</strong> Formulario de Registro</h1>
+                  <h1><strong>GrandChallenge</strong> Crear tu equipo</h1>
                   <div class="mydescription">
-                    <p>Solo necesitas una cuenta</p>
-                    <p>Busca tus retos y ofrece tus servicios de alquiler de cancha</p>
+                    <p>Solo necesitas crear un equipo</p>
+                    <p>Busca tus retos en todo Costa Rica</p>
                   </div>
                 </div>
             </div>
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3 myform-cont" >
+                    <div class="form-group">
+                    
+                      <select id = "combobox">
+                                <option>Futbol</option>
+                                <option>Basketball</option>
+                                <option>Tennis</option>
+                                <option>Football</option>
+                                <option>Baseball</option>
+                      </select>
+                       
+                      </div>
                     <div class="myform-top">
                         <div class="myform-top-left">
-                          <h3>Regístrate en nuestra aplicaccion web.</h3>
-                            <p>Por favor ingresa tus datos personales:</p>
+                          <h3>Registra tu equipo para poder buscar un Challenge</h3>
+                            <p>Por favor ingresa los datos de tu equipo:</p>
                         </div>
                         <div class="myform-top-right">
-                          <i class="fa fa-user"></i>
+                          <i class="glyphicon glyphicon-thumbs-up"></i>
                         </div>
                     </div>
+                        
+                        
                     <div class="myform-bottom">
                       <form role="form" action="" method="post" class="">
+                     
+                          
                         <div class="form-group">
+                              
                             
-                            <input type="text" name="form-firtsname" placeholder="Primer nombre..." class="form-control" id="form-firtsname">
+                            
+                            <input type="text" name="form-teamName" placeholder="Nombre de equipo.." class="form-control" id="form-teamName">
                         </div>
-                        <div class="form-group">
-                            <input type="text" name="form-lastname" placeholder="Primer apellido..." class="form-control" id="form-lastname">
-                        </div>
-                          <div class="myform-middle-genero">
+                        <div class="myform-middle-categoria">
+                        <h1 id ="categoriaTitulo">Categoria</h1>
+                        
+                        </div>  
+                        <div class="myform-middle-genero">
                             <h2 id = "generoTitulo">Genero</h2>
                         </div>
                           
                         <div class="form-group">
-                            <input type="text" name="form-phone" placeholder="Telefono..." class="form-control" id="form-email">
+                            <input type="text" name="form-region" placeholder="Region.." class="form-control" id="form-email">
                         </div>
                           <div class="form-group">
-                            <input type="text" name="form-username" placeholder="Nombre de usuario..." class="form-control" id="form-lastname">
+                            <input type="text" name="form-passwordTeam" placeholder="Contraseña del equipo.." class="form-control" id="form-lastname">
                         </div>
                           <div class="form-group">
-                            <input type="text" name="form-password" placeholder="Contraseña..." class="form-control" id="form-lastname">
+                            <input type="text" name="form-passwordTeamRepeat" placeholder="Repetir contraseña del equipo.." class="form-control" id="form-lastname">
                         </div>
-                          <div class="form-group">
-                            <input type="text" name="form-passwordRepeat" placeholder="Repetir contraseña..." class="form-control" id="form-lastname">
-                        </div>
-                        <button type="submit" class="mybtn">Registrarme</button>
+                          
+                        <button type="submit" class="mybtn">Registrar mi equipo..</button>
                         <div class="form-group">
                                 
                                 <form action="" class="formulario">
@@ -93,10 +109,10 @@
 				                        
  
 				                            <input type="radio" name="sexo" id="hombre">
-				                                <label id = "hombre" for="hombre">Hombre</label>
+				                                <label id = "hombre" for="hombre">Masculino</label>
 		
 				                            <input  type="radio" name="sexo" id="mujer">
-				                                <label id = "mujer" for="mujer">Mujer</label>
+				                                <label id = "mujer" for="mujer">Femenino</label>
 		
 				
                                         </div>
@@ -125,6 +141,9 @@
       </div>
       
     <!-- Enlazamos el js de Bootstrap, y otros plugins que usemos siempre al final antes de cerrar el body -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapodn.com/bootstrap/3.3.4/bootstrap.min.ja"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.ja"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
   </body>
 </html>

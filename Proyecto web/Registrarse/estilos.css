@@ -67,6 +67,15 @@ h3 {
     text-align: right;
     opacity: 0.3;
 }
+.myform-middle-genero{
+    
+    text-align: left;
+    overflow: hidden;
+    -moz-border-radius: 10px 10px 0 0; 
+    -webkit-border-radius: 10px 10px 0 0; 
+    border-radius: 10px 10px 0 0; 
+    
+}
 .myform-bottom {
     padding: 25px 25px 30px 25px;
     background: rgba(0, 0, 0, 0.3);
@@ -166,7 +175,20 @@ button.mybtn:focus {
 
 }
 
-
+#hombre{
+   
+    position: relative;
+    top: -370px;
+    left: 60px;
+    font-size: 30px
+    
+}
+#mujer{
+    position: relative;
+    top: -370px;
+    left: 100px;
+    font-size: 30px ;   
+}
 
 
 
