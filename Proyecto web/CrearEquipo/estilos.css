@@ -200,7 +200,7 @@ button.mybtn:focus {
 }
 #combobox{
     position: relative;
-    top: 320px;
+    top: 430px;
     left: 100px;
     font-size: 30px ; 
     color: black;
@@ -208,4 +208,18 @@ button.mybtn:focus {
 .fa-arrow-left{
     padding: 18px 2px 0px 5px;
     float: inherit
+}
+#combobox1{
+    position: relative;
+    top: 440px;
+    left: 100px;
+    font-size: 30px ; 
+    color: black;
+}
+#combobox2{
+    position: relative;
+    top: 460px;
+    left: 100px;
+    font-size: 30px ; 
+    color: black;
 }
