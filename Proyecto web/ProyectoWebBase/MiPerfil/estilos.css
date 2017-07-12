@@ -37,12 +37,16 @@ h1, h2 {
 }
 h3 {
 	font-size: 22px;
-    font-weight: 300;
+    font-weight: 800;
+    color: black;
 }
 
 /* Contenidos y Formulario*/
 .my-content {
     padding: 100px 0 170px 0;
+    color: black;
+   
+    font-weight: 800;
 }
 .my-content .mydescription {
     margin: 20px 0 10px 0;
@@ -182,7 +186,11 @@ button.mybtn:focus {
     padding: 18px 2px 0px 5px;
     float: inherit
 }
-.
+
+#foto{
+   
+}
+
 
 
 

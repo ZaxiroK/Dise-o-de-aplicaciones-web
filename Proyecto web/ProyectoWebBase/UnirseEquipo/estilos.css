@@ -32,8 +32,9 @@ a, a:hover, a:focus {
 h1, h2 {
 	margin-top: 10px;
 	font-size: 38px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 50px;
+    color: black;
 }
 h3 {
 	font-size: 22px;
@@ -46,6 +47,9 @@ h3 {
 }
 .my-content .mydescription {
     margin: 10px 0 10px 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
 }
 .my-content .mydescription p { 
     opacity: 0.8; 
@@ -94,6 +98,7 @@ h3 {
     -moz-border-radius: 10px 10px 0 0; 
     -webkit-border-radius: 10px 10px 0 0; 
     border-radius: 10px 10px 0 0; 
+    
   
 }
 

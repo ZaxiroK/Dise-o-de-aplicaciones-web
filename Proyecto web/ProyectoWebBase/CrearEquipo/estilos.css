@@ -32,7 +32,7 @@ a, a:hover, a:focus {
 h1, h2 {
 	margin-top: 10px;
 	font-size: 38px;
-    font-weight: 100;
+    font-weight: 400;
     line-height: 50px;
 }
 h3 {
@@ -49,6 +49,8 @@ h3 {
 }
 .my-content .mydescription p { 
     opacity: 0.8; 
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .myform-top {
