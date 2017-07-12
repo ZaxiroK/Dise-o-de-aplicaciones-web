@@ -10,6 +10,18 @@ body {
     background-image: url(../img/FutbolAmericano.jpg)
 
 }
+#bienvenido{
+    position: relative;
+    top: 7px;
+    left: 150px;
+    font-size: 20px
+}
+#usuario{
+    position: relative;
+    top: 7px;
+    left: 150px;
+    font-size: 20px
+}
 strong { 
 	font-weight: 500; 
     color: orange;

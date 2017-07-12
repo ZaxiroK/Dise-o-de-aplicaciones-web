@@ -17,6 +17,18 @@ strong {
 a, a:hover, a:focus {
 	text-decoration: none;
 }
+#bienvenido{
+    position: relative;
+    top: 7px;
+    left: 150px;
+    font-size: 20px
+}
+#usuario{
+    position: relative;
+    top: 7px;
+    left: 150px;
+    font-size: 20px
+}
 h1, h2 {
 	margin-top: 10px;
 	font-size: 38px;
@@ -223,3 +235,15 @@ button.mybtn:focus {
     color: black;
 }
 
+#bienvenido{
+    position: relative;
+    top: 7px;
+    left: 150px;
+    font-size: 20px
+}
+#usuario{
+    position: relative;
+    top: 7px;
+    left: 150px;
+    font-size: 20px
+}

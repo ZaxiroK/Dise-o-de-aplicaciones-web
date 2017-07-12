@@ -7,7 +7,7 @@ body {
     color: #fff;
     line-height: 30px;
     text-align: center;
-    background-image: url(../img/GolpeoFutbol.jpg)
+    background-image: url(../img/bola.jpg)
 
 }
 strong { 
@@ -20,12 +20,14 @@ a, a:hover, a:focus {
 h1, h2 {
 	margin-top: 10px;
 	font-size: 38px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 50px;
+}
+
 }
 h3 {
 	font-size: 22px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /* Contenidos y Formulario*/
@@ -50,11 +52,13 @@ h3 {
     border-radius: 10px 10px 0 0;
     
 }
+
 .myform-top-left { 
     float: left;
     width: 75%;
     padding-top: 25px;
     text-align: left;
+    
 }
 .myform-top-left p { 
     opacity: 0.8; 

@@ -7,12 +7,8 @@ body {
     color: #fff;
     line-height: 30px;
     text-align: center;
-    background-image: url(../img/BaloncestoColorido.jpg)
+    background-image: url(../img/514481.jpg)
 
-}
-strong { 
-	font-weight: 500; 
-    color: orange;
 }
 #bienvenido{
     position: relative;
@@ -25,6 +21,10 @@ strong {
     top: 7px;
     left: 150px;
     font-size: 20px
+}
+strong { 
+	font-weight: 500; 
+    color: orange;
 }
 a, a:hover, a:focus {
 	text-decoration: none;
@@ -52,7 +52,6 @@ h3 {
 }
 
 .myform-top {
-    
     overflow: hidden;
     padding: 0 25px 15px 25px;
     background: rgba(0, 0, 0, 0.35);
@@ -61,28 +60,41 @@ h3 {
     border-radius: 10px 10px 0 0;
     
 }
-
-.myform-middle { 
+.myform-middle-genero{
+    
+    text-align: left;
     overflow: hidden;
-    padding: 0 25px 15px 25px;
-    background: rgba(0, 0, 0, 0.35);
     -moz-border-radius: 10px 10px 0 0; 
     -webkit-border-radius: 10px 10px 0 0; 
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0; 
+    
 }
-.myform-middle-left { 
+.myform-top-left { 
     float: left;
-    width: 40%;
+    width: 75%;
     padding-top: 25px;
     text-align: left;
 }
-
-.myform-middle-right {
+.myform-top-left p { 
+    opacity: 0.8; 
+}
+.myform-top-right {
     float: right;
-    width: 40%;
-    padding-top: 25px; 
+    width: 25%;
+    padding-top: 25px;
+    font-size: 66px;
     text-align: right;
-   
+    opacity: 0.3;
+}
+
+
+.myform-middle-categoria{
+    text-align: left;
+    overflow: hidden;
+    -moz-border-radius: 10px 10px 0 0; 
+    -webkit-border-radius: 10px 10px 0 0; 
+    border-radius: 10px 10px 0 0; 
+  
 }
 
 .myform-bottom {
@@ -95,7 +107,26 @@ h3 {
 .myform-bottom .mybtn {
     width: 100%;
 }
-
+input[type="text"], 
+input[type="password"], 
+textarea, 
+textarea.form-control {
+    height: 50px;
+    vertical-align: middle;
+    background: #fff;
+    border: 3px solid #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    
+}
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+textarea:focus, 
+textarea.form-control:focus {
+    background: #fff;
+    border: 2px solid #1AAE88;
+}
 
 button.mybtn {
     height: 50px;
@@ -118,16 +149,6 @@ button.mybtn:focus {
     background: #de615e; 
 }
 
-#x{
-  height: 50px;
-    background: #1AAE88;
-    border: 0;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 40px;
-    color: #fff;
-    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;  
-}
 /*LOGIN REDES SOCIALES*/
 
 .mysocial-login {
@@ -175,40 +196,30 @@ button.mybtn:focus {
 
 }
 
-#tabla1{
-    border: 1px solid;
-    width: 400px;
-    border-collapse: collapse;
-}
-.tabla td{
-    text-align: center;
-    border: 1px solid;
-}
 
-.tabla th{
-    text-align: center;
-    background: rgba(0, 0, 0, 0.3);
-}
-#team{
+
+#combobox{
     position: relative;
-    left: -350px;
-    font-size: 20px ; 
-    
-}
-#tabla2{
-    border: 1px solid;
-    width: 400px;
-    border-collapse: collapse;
-}
-
-
-#vs{
-    position: relative;
-    top: -330px;
-    left: 290px;
-    font-size: 20px ; 
+    top: 390px;
+    left: 100px;
+    font-size: 30px ; 
+    color: black;
 }
 .fa-arrow-left{
     padding: 18px 2px 0px 5px;
     float: inherit
+}
+#combobox1{
+    position: relative;
+    top: 410px;
+    left: 100px;
+    font-size: 30px ; 
+    color: black;
+}
+#combobox2{
+    position: relative;
+    top: 420px;
+    left: 100px;
+    font-size: 30px ; 
+    color: black;
 }

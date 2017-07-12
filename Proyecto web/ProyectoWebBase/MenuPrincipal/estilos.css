@@ -10,6 +10,14 @@ body {
     background-image: url(../img/78899.jpg)
 
 }
+#btnEmpezarGC{
+    height: 50px;
+    
+    
+    font-size: 20px;
+    color: black;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+}
 
 #titulo1{
     color:orange;
@@ -65,7 +73,8 @@ p{
 }
 
 #btnCerrarSesion {
-    font-size: 13px;
+ font-size: 13px;
+    
     margin: 5px 0 1px 25px ;
     right: 100px
 }
