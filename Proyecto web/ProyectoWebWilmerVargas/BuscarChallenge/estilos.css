@@ -1,0 +1,290 @@
+.navbar {margin-bottom: 0}
+
+body {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    background-image: url(../img/115559.jpg)
+
+}
+#bienvenido{
+    position: relative;
+    top: 7px;
+    left: 40px;
+    font-size: 20px
+}
+#usuario{
+    position: relative;
+    top: 7px;
+    left: 50px;
+    font-size: 20px
+}
+
+strong { 
+	font-weight: 500; 
+    color: orange;
+}
+a, a:hover, a:focus {
+	text-decoration: none;
+}
+h1, h2 {
+	margin-top: 10px;
+	font-size: 38px;
+    font-weight: 300;
+    line-height: 50px;
+}
+h3 {
+	font-size: 22px;
+    font-weight: 300;
+}
+
+/* Contenidos y Formulario*/
+.my-content {
+    padding: 100px 0 170px 0;
+}
+.my-content .mydescription {
+    margin: 10px 0 10px 0;
+}
+.my-content .mydescription p { 
+    opacity: 0.8; 
+}
+
+.myform-top {
+    
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: rgba(0, 0, 0, 0.35);
+    -moz-border-radius: 10px 10px 0 0; 
+    -webkit-border-radius: 10px 10px 0 0; 
+    border-radius: 10px 10px 0 0;
+    
+}
+.myform-middle-top { 
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: rgba(0, 0, 0, 0.35);
+    -moz-border-radius: 10px 10px 0 0; 
+    -webkit-border-radius: 10px 10px 0 0; 
+    border-radius: 10px 10px 0 0;
+}
+.myform-left { 
+    float: left;
+    width: 20%;
+    padding-top: 25px;
+    text-align: left;
+}
+.myform-rigth { 
+    float: right;
+    width: 80%;
+    padding-top: 45px; 
+    text-align: left;
+}
+.myform-middle { 
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: rgba(0, 0, 0, 0.35);
+    -moz-border-radius: 10px 10px 0 0; 
+    -webkit-border-radius: 10px 10px 0 0; 
+    border-radius: 10px 10px 0 0;
+}
+
+
+
+
+.myform-bottom {
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: rgba(0, 0, 0, 0.35);
+    -moz-border-radius: 10px 10px 0 0; 
+    -webkit-border-radius: 10px 10px 0 0; 
+    border-radius: 10px 10px 0 0;
+}
+
+
+.myform-middle-genero{
+    
+    text-align: left;
+    overflow: hidden;
+    -moz-border-radius: 10px 10px 0 0; 
+    -webkit-border-radius: 10px 10px 0 0; 
+    border-radius: 10px 10px 0 0; 
+    
+}
+.myform-middle-categoria{
+    text-align: left;
+    overflow: hidden;
+    -moz-border-radius: 10px 10px 0 0; 
+    -webkit-border-radius: 10px 10px 0 0; 
+    border-radius: 10px 10px 0 0; 
+  
+}
+button.mybtn {
+    height: 50px;
+    background: #1AAE88;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #fff;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+    
+}
+button.mybtn:hover, button.mybtn:active { 
+    opacity: 0.6; 
+    color: #fff; 
+}
+button.mybtn:focus { 
+    opacity: 0.6;  
+    color: #fff; 
+    background: #de615e; 
+}
+
+#x{
+  height: 50px;
+    background: #1AAE88;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #fff;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;  
+}
+/*LOGIN REDES SOCIALES*/
+
+.mysocial-login {
+    margin-top: 35px;
+}
+.mysocial-login-buttons {
+    margin-top: 25px;
+}
+.mybtn-social {
+    display: inline-block;
+    height: 50px;
+    margin: 5px;
+    padding: 15px 20px 0 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #fff;
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    border-radius: 4px;
+}
+.mybtn-social:hover, .mybtn-social:focus, .mybtn-social:active:focus { 
+    outline: 0;
+    opacity: 0.6; 
+    background: rgba(0, 0, 0, 0.3); 
+    color: #fff; 
+}
+
+/* Media queries */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (max-width: 767px) {
+    
+    .mytop-content { padding: 60px 0 110px 0; }
+
+}
+
+@media (max-width: 415px) {
+    
+    h1, h2 { font-size: 32px; }
+
+}
+
+#tabla1{
+    border: 1px solid;
+    width: 1050px;
+    border-collapse: collapse;
+}
+.tabla td{
+    text-align: center;
+    border: 1px solid;
+}
+
+.tabla th{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+}
+#team{
+    position: relative;
+    left: -350px;
+    font-size: 20px ; 
+    
+}
+
+
+
+#tituloSolicitudes{
+     position: relative;
+    font-size: 30px ;
+    font-weight: 500;
+}
+
+#equipo{
+
+    font-size: 30px ;
+    font-weight: 500;
+}
+
+.fa-arrow-left{
+    padding: 18px 2px 0px 5px;
+    float: inherit
+}
+
+.fa-arrow-left{
+    padding: 18px 2px 0px 5px;
+    float: inherit
+}
+#combobox1{
+    color: black;
+    position: relative;
+  
+    font-size: 30px ;
+}
+#combobox2{
+    color: black;
+    position: relative;
+    
+    font-size: 30px ;
+}
+#comboboxCanchas{
+    color: black;
+    position: relative;
+    
+    font-size: 30px ;
+}
+
+#btnBuscar{
+    position: relative;
+    top: -0px;
+    right: -620px;
+    font-size: 20px ; 
+}
+#btnCancha{
+    position: relative;
+    top: -600px;
+    right: -410px;
+    font-size: 20px ;
+}
+#date{
+    position: relative;
+    color: black;
+    font-size: 30px ;
+}
+
+#hora{
+    position: relative;
+    color: black;
+    font-size: 30px ;
+    bottom: -10px
+}
+
+

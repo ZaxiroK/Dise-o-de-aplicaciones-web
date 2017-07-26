@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Editar Equipo</title>
+ 
+    <!-- CSS de Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Iconos--> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500" >
+    <link rel="stylesheet" href="../MiEquipo/estilos.css">
+    
+  </head>
+
+  <body>
+      <header>
+        <nav class = "navbar navbar-inverse navbar-stactic-top" role = "navigation">
+            <div class = "container">
+                <div class = "navbar-header">         
+                    <button type="button" class ="navbar-toggle collapsed" data-toggle="collapse" data-target ="#navegacion-Wil">
+                        <span class= "sr-only" Desplegar / Ocultar Menu></span>
+                        <span class= "icon-bar"></span>
+                        <span class= "icon-bar"></span>
+                        <span class= "icon-bar"></span>
+                    </button>
+                   <a href="../MenuPrincipal/GrandChallengeMenuPrincipal.html" class="navbar-brand">GrandChallenge</a>
+                    <i class="fa fa-arrow-left"></i>
+                    <a href="#" class="navbar-brand">Mi equipo</a>
+                </div>
+                
+                <!-- Inicia Menu -->
+                <div class ="collapse navbar-collapse" id ="navegacion-Wil">
+                    <label id ="bienvenido" for = "name  ">Bienvenido</label> 
+                    <label id="usuario" for = "name">Usuario</label> 
+                    <a href= "../PrincipalLogin/GrandChallengePrincipalLogin.html" class="btn btn-lg btn-primary navbar-right">Cerrar Sesión</a>
+                    
+                  </div>  
+             </div>
+        </nav>
+    </header>
+      
+    <div class="my-content" >
+        <div class="container" > 
+            <div class="row">
+                <div class="col-sm-12" >
+                  <h1><strong>GrandChallenge</strong> Mi Equipo</h1>
+                  <div class="mydescription">
+                    <p>Se el mejor en tu region</p>
+                    <p>Busca tus retos en todo Costa Rica</p>
+                  </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 myform-cont" >
+                   
+                    <div class="myform-top">
+                        <div class="myform-top-left">
+                          <h3>Mira los jugadores de tu equipo y busca un Challenge</h3>
+                            
+                        </div>
+                        <div class="myform-top-right">
+                          <i class="glyphicon glyphicon-thumbs-up"></i>
+                        </div>
+                    </div>
+                  
+                    <div  class="myform-middle">
+                        <label id = "team">Nombre del equipo</label>
+                        <br>
+                        <label id = "team">Categoria</label>
+                        <br>
+                        <label id = "team">Genero</label>
+
+                        <div class="myform-middle-left">
+                            <table id = "tabla1" class ="tabla">
+                                <tr>
+                                   <th>No.</th>
+                                   <th>Jugador.</th>
+                                   <th>Eliminar</th>    
+                                </tr>
+                                
+                                <tr>
+                                   <td>1</td>
+                                   <td>Carlos</td>
+                                    <td><button type="button" class="btn btn-danger">X</button></td>
+                                </tr>
+                                
+                                <tr>
+                                   <td>2</td>
+                                   <td>Macho</td>
+                                   <td><button type="button" class="btn btn-danger">X</button></td>
+                                </tr>
+                                
+                                <tr>
+                                   <td>3</td>
+                                   <td>Maicol</td>
+                                   <td><button type="button" class="btn btn-danger">X</button></td>
+                                </tr>
+                                
+                                <tr>
+                                   <td>4</td>
+                                   <td>Marvin</td>
+                                   <td><button type="button" class="btn btn-danger">X</button></td>
+                                </tr>
+                                
+                                <tr>
+                                   <td>5</td>
+                                   <td>Michael</td>
+                                   <td><button type="button" class="btn btn-danger">X</button></td>
+                                </tr>
+                            </table>
+                           
+                            
+                        </div>
+                        
+                        <div class="myform-middle-right">
+                          <table id = "tabla2" class ="tabla">
+                                <tr>
+                                   <th>Equipo A</th>
+                                   <th>vs</th>
+                                   <th>Equipo B</th>
+                                   <th>Ganador</th>
+                                </tr>
+                                
+                                <tr>
+                                   <td>Union</td>
+                                   <td>vs</td>
+                                   <td>Papas</td>
+                                   <td>A</td>
+                                </tr>
+                                
+                                <tr>
+                                   <td>Union</td>
+                                   <td>vs</td>
+                                   <td>Lolis</td>
+                                   <td>A</td>
+                                </tr>
+                                
+                                <tr>
+                                   <td>Union</td>
+                                   <td>vs</td>
+                                   <td>Pegasos</td>
+                                   <td>A</td>
+                                </tr>
+                                
+                                <tr>
+                                   <td>Union</td>
+                                   <td>vs</td>
+                                   <td>Red Bulls</td>
+                                   <td>A</td>
+                                </tr>
+                                
+                                <tr>
+                                   <td>Union</td>
+                                   <td>vs</td>
+                                   <td>Los unknown</td>
+                                   <td>A</td>
+                                </tr>
+                            </table>
+                            
+                        </div>
+                    </div>    
+                        
+                    <div class="myform-bottom">
+                      <form role="form" action="" method="post" class="">
+                            
+                       
+                        <a href ="../BuscarChallenge/GrandChallengeBuscar.html" class= "btn btn-lg btn-warning">Buscar Challenge..</a>
+                        <a href ="" class= "btn btn-lg btn-default">Elminar Equipo..</a>
+                        <div class="form-group">
+                         <label id = "vs">Encuentros</label>       
+                               
+                            </div>  
+                      </form>
+                    </div>
+              </div>
+            </div>
+             
+            <div class="row">
+                <div class="col-sm-12 mysocial-login">
+                    <h3>...Siguenos por:</h3>
+                    <div class="mysocial-login-buttons" >
+                      <a class="mybtn-social" href="#">
+                      <i class="fa fa-facebook"></i> Facebook
+                      </a>
+                      <a class="mybtn-social" href="#">
+                      <i class="fa fa-twitter"></i> Twitter
+                      </a>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+    <!-- Enlazamos el js de Bootstrap, y otros plugins que usemos siempre al final antes de cerrar el body -->
+    <script src="https://maxcdn.bootstrapodn.com/bootstrap/3.3.4/bootstrap.min.ja"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.ja"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+  </body>
+</html>

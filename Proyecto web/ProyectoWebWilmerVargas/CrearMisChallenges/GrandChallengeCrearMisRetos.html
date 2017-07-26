@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buscar Challenge</title>
+ 
+    <!-- CSS de Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Iconos--> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500" >
+    <link rel="stylesheet" href="../CrearMisChallenges/estilos.css">
+    
+  </head>
+
+  <body>
+      
+      <header>
+        <nav class = "navbar navbar-inverse navbar-stactic-top" role = "navigation">
+            <div class = "container">
+                <div class = "navbar-header">         
+                    <button type="button" class ="navbar-toggle collapsed" data-toggle="collapse" data-target ="#navegacion-Wil">
+                        <span class= "sr-only" Desplegar / Ocultar Menu></span>
+                        <span class= "icon-bar"></span>
+                        <span class= "icon-bar"></span>
+                        <span class= "icon-bar"></span>
+                    </button>
+                   <a href="../MenuPrincipal/GrandChallengeMenuPrincipal.html" class="navbar-brand">GrandChallenge</a>
+                    <a href="#" class="navbar-brand">Crear mis Challenges</a>
+                    <a href="../BuscarChallenge/GrandChallengeBuscar.html" class="navbar-brand">Buscar Challenges</a>
+                    <a href="../MiChallenges/GrandChallengeMiChallenge.html" class="navbar-brand">Mis Challenges</a>
+                </div>
+                
+                <!-- Inicia Menu -->
+                <div class ="collapse navbar-collapse" id ="navegacion-Wil">
+                    <label id ="bienvenido" for = "name  ">Bienvenido</label> 
+                    <label id="usuario" for = "name">Usuario</label> 
+                    <a href= "../PrincipalLogin/GrandChallengePrincipalLogin.html" class="btn btn-lg btn-primary navbar-right">Cerrar Sesión</a>
+                    
+                  </div>  
+             </div>
+        </nav>
+    </header>
+     
+    <div class="my-content" >
+        <div class="container" > 
+            <div class="row">
+                <div class="col-sm-12" >
+                  <h1><strong>GrandChallenge</strong> Mi Grand Challenge</h1>
+                  <div class="mydescription">
+                    <p>Busca y diviertete</p>
+                    <p>Busca tus retos en todo Costa Rica</p>
+                  </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 myform-cont" >
+                   
+                    <div class="myform-top">
+                        <div class="myform-top-left">
+                          <h1 id = "equipo">Crear mis Challenges</h1> 
+                          <h3 id = "instrupciones">Selecciona los datos donde quieres realizar tu reto</h3> 
+                          <h3 id = "instrupciones">Puedes buscar equipos y comunicarte directamente con ellos para realizar el lugar del Challenge</h3> 
+                        </div>
+                        <div class="myform-top-right">
+                         
+                            
+                        </div>
+                    </div>
+                    
+                    
+                  
+                    <div class ="myform-middle-top">
+                        <div class ="myform-left">
+                            <div class="myform-provincia">
+                                <h1 id ="provincia">Provincia</h1>
+                        
+                            </div>  
+                            <div class="myform-canton">
+                                <h1 id ="provincia">Cantón</h1>
+                           </div>
+                            <div class="myform-cancha">
+                                <h1 id ="cancha">Cancha</h1>
+                           </div>
+                            <div class="myform-cancha">
+                                <h1 id ="fecha">Fecha</h1>
+                           </div>
+                            
+                            <div class="myform-cancha">
+                                <h1 id ="tiempo">Hora</h1>
+                           </div>
+                       </div>
+                        
+                        <div class ="myform-rigth">
+                            <div class = "myform-combobox">
+                                <div class="form-group">
+                                    <select id = "combobox1">
+                                        <option>Alajuela</option>
+                                        <option>San José</option>
+                                        <option>Cartago</option>
+                                        <option>Heredia</option>
+                                        <option>Guanacaste</option>
+                                        <option>Puntarenas</option>
+                                        <option>Limón</option>
+                                    </select>
+                       
+                                </div>
+                                
+                                <div class="form-group">
+                    
+                                     <select id = "combobox2">
+                                               
+                                        <option>Alajuela</option>
+                                        <option>San Ramón</option>
+                                        <option>Greacia</option>
+                                        <option>San Mateo</option>
+                                        <option>Atenas</option>
+                                        <option>Naranjo</option>
+                                        <option>Palmares</option>
+                                        <option>Poás</option>
+                                        <option>Orotina</option>
+                                        <option>San Carlos</option>
+                                        <option>Zarcero</option>
+                                        <option>Valverde Vega</option> 
+                                        <option>Upala</option>
+                                        <option>Los Chiles</option>
+                                        <option>Guatuso</option>
+                                        <option>Río Cuarto</option>
+                                
+                                    </select>
+                                </div> 
+                                <div class="form-group">
+                                        <select id = "comboboxCanchas">
+                                        <option></option>
+                                        <option>Hermanos2</option>
+                                        <option>Dioste Salve</option>
+                                        <option>Amigos</option>
+                                        <option>Vargas</option>
+                                        <option>Alajuela</option>
+                                        
+                                    </select>
+                       
+                                </div>
+                                <div>
+                                    <form action = "" method="" id ="date">
+                                        <input type="date">
+                                    </form>
+                                </div>
+                                
+                                <div>
+                                    <form action = "" method="" id ="hora">
+                                        <input type="time">
+                                    </form>
+                                </div>
+                                
+                                    <a href ="" class= "btn btn-lg btn-warning" id = "enviarReto">Enviar Challenge</a>
+                                
+                                    
+                                
+
+                            </div>
+                        </div>    
+                  </div>
+                  
+                    <div  class="myform-middle">
+                            <div class="form-group">
+                        
+                            <h1 id = "equipo">Mis Challenges</h1>       
+                               
+                            </div> 
+                            <table id = "tabla1" class ="tabla">
+                                <tr>
+                                   <th>No.</th>  
+                                   <th>Equipo</th>
+                                   <th>Capitan.</th>
+                                   <th>Telefono</th>
+                                   <th>Cancha </th>
+                                   <th>Fecha</th> 
+                                   <th>Hora</th> 
+                                   <th>Eliminar</th>
+                                </tr>
+                                
+                                <tr>
+                                   <td>1</td>
+                                   <td>Pitufos</td>
+                                   <td>Carlos</td>
+                                   <td>88888888</td>
+                                    <td>HermanosS2</td>
+                                    <td>10/7/2017</td>
+                                    <td>8:00pm</td>
+                                    <td><button type="button" class="btn btn-danger">X</button></td>
+                                </tr>
+                                
+                                
+                                
+                                <tr>
+                                   <td>2</td>
+                                   <td>Pitufos</td>
+                                   <td>Carlos</td>
+                                   <td>88888888</td>                       
+                                   <td>HermanosS2</td>
+                                    <td>17/7/2017</td>
+                                    <td>8:00pm</td>
+                                    <td><button type="button" class="btn btn-danger">X</button></td>
+                                </tr>
+                                
+                                <tr>
+                                   <td>3</td> 
+                                   <td>Pitufos</td>
+                                   <td>Carlos</td>
+                                   <td>88888888</td>
+                                   
+                                   <td>HermanosS2</td>
+                                    <td>24/7/2017</td>
+                                    <td>8:00pm</td>
+                                    <td><button type="button" class="btn btn-danger">X</button></td>
+                                </tr>
+                                
+                                <tr>
+                                   <td>4</td>
+                                   <td>Pitufos</td>
+                                   <td>Carlos</td>
+                                   <td>88888888</td>
+                                    <td>HermanosS2</td>
+                                    <td>7/8/2017</td>
+                                    <td>8:00 pm</td>
+                                     <td><button type="button" class="btn btn-danger">X</button></td>
+                                </tr>
+                            </table>
+                        
+                        
+                    </div>    
+                        
+                 
+                  <div class ="myform-bottom">
+                      <div class="form-group">
+                        <a href ="../BuscarChallenge/GrandChallengeBuscar.html" class= "btn btn-lg btn-warning" id = "btnBuscar">Buscar Challenges</a>
+                        <a href ="../MiChallenges/GrandChallengeMiChallenge.html" class= "btn btn-lg btn-warning" id = "btnBuscar">Mis Challenges</a>    
+                        </div>    
+                  </div>
+                  
+                  
+                   
+
+                  <a href ="" class= "btn btn-lg btn-warning" id = "btnCancha">Mas sobre la cancha..</a>
+                  
+              </div>
+            </div>
+             
+            <div class="row">
+                <div class="col-sm-12 mysocial-login">
+                    <h3>...Siguenos por:</h3>
+                    <div class="mysocial-login-buttons" >
+                      <a class="mybtn-social" href="#">
+                      <i class="fa fa-facebook"></i> Facebook
+                      </a>
+                      <a class="mybtn-social" href="#">
+                      <i class="fa fa-twitter"></i> Twitter
+                      </a>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+    <!-- Enlazamos el js de Bootstrap, y otros plugins que usemos siempre al final antes de cerrar el body -->
+    <script src="https://maxcdn.bootstrapodn.com/bootstrap/3.3.4/bootstrap.min.ja"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.ja"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+  </body>
+</html>
