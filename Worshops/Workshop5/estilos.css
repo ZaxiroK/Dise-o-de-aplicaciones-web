@@ -1,0 +1,27 @@
+body {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    background-image: url(/fondo.jpg)
+
+}
+.myform-cont {
+    margin-top: 35px;
+}
+.my-content {
+    padding: 100px 0 170px 0;
+}
+.myform-bottom {
+    padding: 25px 25px 30px 25px;
+    background: rgba(0, 0, 0, 0.3);
+    -moz-border-radius: 0 0 10px 10px; 
+    -webkit-border-radius: 0 0 10px 10px; 
+    border-radius: 0 0 10px 10px;
+    
+}
+-webkit-input-placeholder {
+    color: black;
+}
